@@ -15,6 +15,7 @@ Here you can see how components interact toghether
 
 The document is organized as a demo script  and demo components can be usefull if you want use them to test your environemt or you can just jump some steps (marked with the note @demo ) if you want to setup the monitoring stack only. 
 
+[Here](https://labs.consol.de/development/2018/01/19/openshift_application_monitoring.html) you can find a grate job and the source of the ispiration  :)
 
 # REQUIREMENTS
 * a bash shell (we recomend to use the bastion host of your cluster)
