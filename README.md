@@ -11,7 +11,7 @@ This guide helps to setup a stack composed of:
 
 Here you can see how components interact toghether
 
-![components sequence diagram](https://raw.githubusercontent.com/p-sforza/springboot-monitoring-example/master/extras/diagram.png)
+![components sequence diagram](https://raw.githubusercontent.com/p-sforza/observability/master/extras/diagram.png)
 
 The document is organized as a demo script  and demo components can be usefull if you want use them to test your environemt or you can just jump some steps (marked with the note @demo ) if you want to setup the monitoring stack only. 
 
