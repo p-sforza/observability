@@ -34,7 +34,7 @@ export DEMO_KAFKA='demo-monitored-kafka'
 export MONITORING_NS='monitoring-global'
 
 # repo/branch of the code
-export MONITORING_BASEREPO='https://raw.githubusercontent.com/p-sforza/springboot-monitoring-example'
+export MONITORING_BASEREPO='https://raw.githubusercontent.com/p-sforza/observability'
 export MONITORING_BRANCH='master'
 ```
 # DEPLOY THE MONITORED APP
