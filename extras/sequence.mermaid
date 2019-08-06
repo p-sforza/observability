@@ -1,0 +1,12 @@
+```mermaid
+sequenceDiagram
+prometheus ->> kubernetes: Hi K8s, what's in these NS?
+prometheus ->> demo app: Hello POD, what's in /metrics?
+Note right of kafka exporter: Exporter sometimes<br/>wakes up and<br/>poll the broker.
+kafka exporter -->> kafka broker: Hello Bro! what's in topics?
+prometheus ->> kafka exporter: Hello POD, what's in /metrics?
+Note left of grafana: Grafana sometimes<br/>wakes up and<br/>poll Prometheus.
+grafana -->> prometheus: Hey, Prometheus, solve this query!
+Note left of alert manager: Alert sometimes<br/>wakes up and<br/>poll Prometheus to<br/>verify healt state of<br/>his friends.
+alert manager -->> prometheus: Hello prometheus, are you ok?! and what about those pods?
+```

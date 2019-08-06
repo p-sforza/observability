@@ -1,0 +1,394 @@
+<svg id="mermaid-1565123862418" width="100%" xmlns="http://www.w3.org/2000/svg" height="100%" style="max-width:1450px;" viewBox="-50 -10 1450 637"><style>
+
+
+#mermaid-1565123862418 .label {
+  font-family: 'trebuchet ms', verdana, arial;
+  color: #333; }
+
+#mermaid-1565123862418 .label text {
+  fill: #333; }
+
+#mermaid-1565123862418 .node rect,
+#mermaid-1565123862418 .node circle,
+#mermaid-1565123862418 .node ellipse,
+#mermaid-1565123862418 .node polygon {
+  fill: #ECECFF;
+  stroke: #9370DB;
+  stroke-width: 1px; }
+
+#mermaid-1565123862418 .node.clickable {
+  cursor: pointer; }
+
+#mermaid-1565123862418 .arrowheadPath {
+  fill: #333333; }
+
+#mermaid-1565123862418 .edgePath .path {
+  stroke: #333333;
+  stroke-width: 1.5px; }
+
+#mermaid-1565123862418 .edgeLabel {
+  background-color: #e8e8e8; }
+
+#mermaid-1565123862418 .cluster rect {
+  fill: #ffffde;
+  stroke: #aaaa33;
+  stroke-width: 1px; }
+
+#mermaid-1565123862418 .cluster text {
+  fill: #333; }
+
+#mermaid-1565123862418 div.mermaidTooltip {
+  position: absolute;
+  text-align: center;
+  max-width: 200px;
+  padding: 2px;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-size: 12px;
+  background: #ffffde;
+  border: 1px solid #aaaa33;
+  border-radius: 2px;
+  pointer-events: none;
+  z-index: 100; }
+
+#mermaid-1565123862418 .actor {
+  stroke: #CCCCFF;
+  fill: #ECECFF; }
+
+#mermaid-1565123862418 text.actor {
+  fill: black;
+  stroke: none; }
+
+#mermaid-1565123862418 .actor-line {
+  stroke: grey; }
+
+#mermaid-1565123862418 .messageLine0 {
+  stroke-width: 1.5;
+  stroke-dasharray: '2 2';
+  stroke: #333; }
+
+#mermaid-1565123862418 .messageLine1 {
+  stroke-width: 1.5;
+  stroke-dasharray: '2 2';
+  stroke: #333; }
+
+#mermaid-1565123862418 #arrowhead {
+  fill: #333; }
+
+#mermaid-1565123862418 .sequenceNumber {
+  fill: white; }
+
+#mermaid-1565123862418 #sequencenumber {
+  fill: #333; }
+
+#mermaid-1565123862418 #crosshead path {
+  fill: #333 !important;
+  stroke: #333 !important; }
+
+#mermaid-1565123862418 .messageText {
+  fill: #333;
+  stroke: none; }
+
+#mermaid-1565123862418 .labelBox {
+  stroke: #CCCCFF;
+  fill: #ECECFF; }
+
+#mermaid-1565123862418 .labelText {
+  fill: black;
+  stroke: none; }
+
+#mermaid-1565123862418 .loopText {
+  fill: black;
+  stroke: none; }
+
+#mermaid-1565123862418 .loopLine {
+  stroke-width: 2;
+  stroke-dasharray: '2 2';
+  stroke: #CCCCFF; }
+
+#mermaid-1565123862418 .note {
+  stroke: #aaaa33;
+  fill: #fff5ad; }
+
+#mermaid-1565123862418 .noteText {
+  fill: black;
+  stroke: none;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-size: 14px; }
+
+#mermaid-1565123862418 .activation0 {
+  fill: #f4f4f4;
+  stroke: #666; }
+
+#mermaid-1565123862418 .activation1 {
+  fill: #f4f4f4;
+  stroke: #666; }
+
+#mermaid-1565123862418 .activation2 {
+  fill: #f4f4f4;
+  stroke: #666; }
+
+
+#mermaid-1565123862418 .section {
+  stroke: none;
+  opacity: 0.2; }
+
+#mermaid-1565123862418 .section0 {
+  fill: rgba(102, 102, 255, 0.49); }
+
+#mermaid-1565123862418 .section2 {
+  fill: #fff400; }
+
+#mermaid-1565123862418 .section1,
+#mermaid-1565123862418 .section3 {
+  fill: white;
+  opacity: 0.2; }
+
+#mermaid-1565123862418 .sectionTitle0 {
+  fill: #333; }
+
+#mermaid-1565123862418 .sectionTitle1 {
+  fill: #333; }
+
+#mermaid-1565123862418 .sectionTitle2 {
+  fill: #333; }
+
+#mermaid-1565123862418 .sectionTitle3 {
+  fill: #333; }
+
+#mermaid-1565123862418 .sectionTitle {
+  text-anchor: start;
+  font-size: 11px;
+  text-height: 14px; }
+
+
+#mermaid-1565123862418 .grid .tick {
+  stroke: lightgrey;
+  opacity: 0.3;
+  shape-rendering: crispEdges; }
+
+#mermaid-1565123862418 .grid path {
+  stroke-width: 0; }
+
+
+#mermaid-1565123862418 .today {
+  fill: none;
+  stroke: red;
+  stroke-width: 2px; }
+
+
+
+#mermaid-1565123862418 .task {
+  stroke-width: 2; }
+
+#mermaid-1565123862418 .taskText {
+  text-anchor: middle;
+  font-size: 11px; }
+
+#mermaid-1565123862418 .taskTextOutsideRight {
+  fill: black;
+  text-anchor: start;
+  font-size: 11px; }
+
+#mermaid-1565123862418 .taskTextOutsideLeft {
+  fill: black;
+  text-anchor: end;
+  font-size: 11px; }
+
+
+#mermaid-1565123862418 .task.clickable {
+  cursor: pointer; }
+
+#mermaid-1565123862418 .taskText.clickable {
+  cursor: pointer;
+  fill: #003163 !important;
+  font-weight: bold; }
+
+#mermaid-1565123862418 .taskTextOutsideLeft.clickable {
+  cursor: pointer;
+  fill: #003163 !important;
+  font-weight: bold; }
+
+#mermaid-1565123862418 .taskTextOutsideRight.clickable {
+  cursor: pointer;
+  fill: #003163 !important;
+  font-weight: bold; }
+
+
+#mermaid-1565123862418 .taskText0,
+#mermaid-1565123862418 .taskText1,
+#mermaid-1565123862418 .taskText2,
+#mermaid-1565123862418 .taskText3 {
+  fill: white; }
+
+#mermaid-1565123862418 .task0,
+#mermaid-1565123862418 .task1,
+#mermaid-1565123862418 .task2,
+#mermaid-1565123862418 .task3 {
+  fill: #8a90dd;
+  stroke: #534fbc; }
+
+#mermaid-1565123862418 .taskTextOutside0,
+#mermaid-1565123862418 .taskTextOutside2 {
+  fill: black; }
+
+#mermaid-1565123862418 .taskTextOutside1,
+#mermaid-1565123862418 .taskTextOutside3 {
+  fill: black; }
+
+
+#mermaid-1565123862418 .active0,
+#mermaid-1565123862418 .active1,
+#mermaid-1565123862418 .active2,
+#mermaid-1565123862418 .active3 {
+  fill: #bfc7ff;
+  stroke: #534fbc; }
+
+#mermaid-1565123862418 .activeText0,
+#mermaid-1565123862418 .activeText1,
+#mermaid-1565123862418 .activeText2,
+#mermaid-1565123862418 .activeText3 {
+  fill: black !important; }
+
+
+#mermaid-1565123862418 .done0,
+#mermaid-1565123862418 .done1,
+#mermaid-1565123862418 .done2,
+#mermaid-1565123862418 .done3 {
+  stroke: grey;
+  fill: lightgrey;
+  stroke-width: 2; }
+
+#mermaid-1565123862418 .doneText0,
+#mermaid-1565123862418 .doneText1,
+#mermaid-1565123862418 .doneText2,
+#mermaid-1565123862418 .doneText3 {
+  fill: black !important; }
+
+
+#mermaid-1565123862418 .crit0,
+#mermaid-1565123862418 .crit1,
+#mermaid-1565123862418 .crit2,
+#mermaid-1565123862418 .crit3 {
+  stroke: #ff8888;
+  fill: red;
+  stroke-width: 2; }
+
+#mermaid-1565123862418 .activeCrit0,
+#mermaid-1565123862418 .activeCrit1,
+#mermaid-1565123862418 .activeCrit2,
+#mermaid-1565123862418 .activeCrit3 {
+  stroke: #ff8888;
+  fill: #bfc7ff;
+  stroke-width: 2; }
+
+#mermaid-1565123862418 .doneCrit0,
+#mermaid-1565123862418 .doneCrit1,
+#mermaid-1565123862418 .doneCrit2,
+#mermaid-1565123862418 .doneCrit3 {
+  stroke: #ff8888;
+  fill: lightgrey;
+  stroke-width: 2;
+  cursor: pointer;
+  shape-rendering: crispEdges; }
+
+#mermaid-1565123862418 .milestone {
+  transform: rotate(45deg) scale(0.8, 0.8); }
+
+#mermaid-1565123862418 .milestoneText {
+  font-style: italic; }
+
+#mermaid-1565123862418 .doneCritText0,
+#mermaid-1565123862418 .doneCritText1,
+#mermaid-1565123862418 .doneCritText2,
+#mermaid-1565123862418 .doneCritText3 {
+  fill: black !important; }
+
+#mermaid-1565123862418 .activeCritText0,
+#mermaid-1565123862418 .activeCritText1,
+#mermaid-1565123862418 .activeCritText2,
+#mermaid-1565123862418 .activeCritText3 {
+  fill: black !important; }
+
+#mermaid-1565123862418 .titleText {
+  text-anchor: middle;
+  font-size: 18px;
+  fill: black; }
+
+#mermaid-1565123862418 g.classGroup text {
+  fill: #9370DB;
+  stroke: none;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-size: 10px; }
+
+#mermaid-1565123862418 g.classGroup rect {
+  fill: #ECECFF;
+  stroke: #9370DB; }
+
+#mermaid-1565123862418 g.classGroup line {
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1565123862418 .classLabel .box {
+  stroke: none;
+  stroke-width: 0;
+  fill: #ECECFF;
+  opacity: 0.5; }
+
+#mermaid-1565123862418 .classLabel .label {
+  fill: #9370DB;
+  font-size: 10px; }
+
+#mermaid-1565123862418 .relation {
+  stroke: #9370DB;
+  stroke-width: 1;
+  fill: none; }
+
+#mermaid-1565123862418 #compositionStart {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1565123862418 #compositionEnd {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1565123862418 #aggregationStart {
+  fill: #ECECFF;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1565123862418 #aggregationEnd {
+  fill: #ECECFF;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1565123862418 #dependencyStart {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1565123862418 #dependencyEnd {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1565123862418 #extensionStart {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1565123862418 #extensionEnd {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1565123862418 .commit-id,
+#mermaid-1565123862418 .commit-msg,
+#mermaid-1565123862418 .branch-label {
+  fill: lightgrey;
+  color: lightgrey; }
+</style><style>#mermaid-1565123862418 {
+    color: rgba(0, 0, 0, 0.65);
+    font: ;
+  }</style><g></g><g><line id="actor0" x1="75" y1="5" x2="75" y2="626" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="0" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="75" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-family: Open-Sans, sans-serif;"><tspan x="75" dy="0">prometheus</tspan></text></g><g><line id="actor1" x1="275" y1="5" x2="275" y2="626" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="200" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="275" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-family: Open-Sans, sans-serif;"><tspan x="275" dy="0">kubernetes</tspan></text></g><g><line id="actor2" x1="475" y1="5" x2="475" y2="626" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="400" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="475" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-family: Open-Sans, sans-serif;"><tspan x="475" dy="0">demo app</tspan></text></g><g><line id="actor3" x1="675" y1="5" x2="675" y2="626" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="600" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="675" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-family: Open-Sans, sans-serif;"><tspan x="675" dy="0">kafka exporter</tspan></text></g><g><line id="actor4" x1="875" y1="5" x2="875" y2="626" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="800" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="875" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-family: Open-Sans, sans-serif;"><tspan x="875" dy="0">kafka broker</tspan></text></g><g><line id="actor5" x1="1075" y1="5" x2="1075" y2="626" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="1000" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="1075" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-family: Open-Sans, sans-serif;"><tspan x="1075" dy="0">grafana</tspan></text></g><g><line id="actor6" x1="1275" y1="5" x2="1275" y2="626" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="1200" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="1275" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-family: Open-Sans, sans-serif;"><tspan x="1275" dy="0">alert manager</tspan></text></g><defs><marker id="arrowhead" refX="5" refY="2" markerWidth="6" markerHeight="4" orient="auto"><path d="M 0,0 V 4 L6,2 Z"></path></marker></defs><defs><marker id="crosshead" markerWidth="15" markerHeight="8" orient="auto" refX="16" refY="4"><path fill="black" stroke="#000000" stroke-width="1px" d="M 9,2 V 6 L16,4 Z" style="stroke-dasharray: 0, 0;"></path><path fill="none" stroke="#000000" stroke-width="1px" d="M 0,1 L 6,7 M 6,1 L 0,7" style="stroke-dasharray: 0, 0;"></path></marker></defs><defs><marker id="sequencenumber" refX="15" refY="15" markerWidth="60" markerHeight="40" orient="auto"><circle cx="15" cy="15" r="6"></circle></marker></defs><g><text x="175" y="93" class="messageText" style="text-anchor: middle;">Hi K8s, what's in these NS?</text><line x1="75" y1="100" x2="275" y2="100" class="messageLine0" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="fill: none;"></line></g><g><text x="275" y="128" class="messageText" style="text-anchor: middle;">Hello POD, what's in /metrics?</text><line x1="75" y1="135" x2="475" y2="135" class="messageLine0" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="fill: none;"></line></g><g><rect x="700" y="145" fill="#EDF2AE" stroke="#666" width="150" height="68" rx="0" ry="0" class="note"></rect><text x="696" y="169" class="noteText"><tspan x="716">Exporter sometimes</tspan></text><text x="696" y="185" class="noteText"><tspan x="716">wakes up and</tspan></text><text x="696" y="201" class="noteText"><tspan x="716">poll the broker.</tspan></text></g><g><text x="775" y="241" class="messageText" style="text-anchor: middle;">Hello Bro! what's in topics?</text><line x1="675" y1="248" x2="875" y2="248" class="messageLine1" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="stroke-dasharray: 3, 3; fill: none;"></line></g><g><text x="375" y="276" class="messageText" style="text-anchor: middle;">Hello POD, what's in /metrics?</text><line x1="75" y1="283" x2="675" y2="283" class="messageLine0" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="fill: none;"></line></g><g><rect x="900" y="293" fill="#EDF2AE" stroke="#666" width="150" height="68" rx="0" ry="0" class="note"></rect><text x="896" y="317" class="noteText"><tspan x="916">Grafana sometimes</tspan></text><text x="896" y="333" class="noteText"><tspan x="916">wakes up and</tspan></text><text x="896" y="349" class="noteText"><tspan x="916">poll Prometheus.</tspan></text></g><g><text x="575" y="389" class="messageText" style="text-anchor: middle;">Hey, Prometheus, solve this query!</text><line x1="1075" y1="396" x2="75" y2="396" class="messageLine1" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="stroke-dasharray: 3, 3; fill: none;"></line></g><g><rect x="1100" y="406" fill="#EDF2AE" stroke="#666" width="150" height="100" rx="0" ry="0" class="note"></rect><text x="1096" y="430" class="noteText"><tspan x="1116">Alert sometimes</tspan></text><text x="1096" y="446" class="noteText"><tspan x="1116">wakes up and</tspan></text><text x="1096" y="462" class="noteText"><tspan x="1116">poll Prometheus to</tspan></text><text x="1096" y="478" class="noteText"><tspan x="1116">verify healt state of</tspan></text><text x="1096" y="494" class="noteText"><tspan x="1116">his friends.</tspan></text></g><g><text x="675" y="534" class="messageText" style="text-anchor: middle;">Hello prometheus, are you ok?! and what about those pods?</text><line x1="1275" y1="541" x2="75" y2="541" class="messageLine1" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="stroke-dasharray: 3, 3; fill: none;"></line></g><g><rect x="0" y="561" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="75" y="593.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-family: Open-Sans, sans-serif;"><tspan x="75" dy="0">prometheus</tspan></text></g><g><rect x="200" y="561" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="275" y="593.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-family: Open-Sans, sans-serif;"><tspan x="275" dy="0">kubernetes</tspan></text></g><g><rect x="400" y="561" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="475" y="593.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-family: Open-Sans, sans-serif;"><tspan x="475" dy="0">demo app</tspan></text></g><g><rect x="600" y="561" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="675" y="593.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-family: Open-Sans, sans-serif;"><tspan x="675" dy="0">kafka exporter</tspan></text></g><g><rect x="800" y="561" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="875" y="593.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-family: Open-Sans, sans-serif;"><tspan x="875" dy="0">kafka broker</tspan></text></g><g><rect x="1000" y="561" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="1075" y="593.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-family: Open-Sans, sans-serif;"><tspan x="1075" dy="0">grafana</tspan></text></g><g><rect x="1200" y="561" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="1275" y="593.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-family: Open-Sans, sans-serif;"><tspan x="1275" dy="0">alert manager</tspan></text></g></svg>
